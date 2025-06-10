@@ -232,7 +232,7 @@ const bigProjects = {
       footerLink: [
         {
           name: " Project Demo",
-          url: "https://www.youtube.com/watch?v=YOUR_VIDEO_ID", // Replace with actual link
+          url: "https://youtu.be/-QKIJsfQEYc", // Replace with actual link
           iconifyClass: "fab fa-youtube" // YouTube icon
         }
       ]
