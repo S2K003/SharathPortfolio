@@ -236,7 +236,24 @@ const bigProjects = {
           iconifyClass: "fab fa-youtube" // YouTube icon
         }
       ]
+    },
+      {
+  "image": require("./assets/images/coimbatoreBusAppLogo.webp"), // Replace with actual image path
+  "projectName": "Coimbatore Local Bus App",
+  "projectDesc": [
+    "Developed a cross-platform mobile application using React Native and Expo for accessing local bus information in Coimbatore.",
+    "Implemented a local SQLite database to store and manage bus routes, schedules, and stop details.",
+    "Designed an intuitive user interface for efficient searching and viewing of bus information.",
+    "Focused on providing essential details for commuters to navigate Coimbatore's local bus network."
+  ],
+  "footerLink": [
+    {
+      "name": "Project Demo",
+      "url": "https://youtu.be/-QKIJsfQEYc", // Replace with actual link
+      "iconifyClass": "fab fa-youtube" // YouTube icon or relevant icon
     }
+  ]
+}
   ],
   display: true
 };
