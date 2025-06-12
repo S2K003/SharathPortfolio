@@ -272,7 +272,7 @@ const achievementSection = {
     {
       title: "Smart Parking Solutions",
       subtitle: "Co-authored a comprehensive review paper analyzing AI and deep learning models in smart parking and urban traffic systems. Explored and compared cutting-edge technologies like YOLO, CNNs, IoT, GANs, and reinforcement learning for real-time parking solutions. Discussed challenges such as scalability, privacy, and computational constraints, with proposed directions involving federated learning and edge AI.",
-      image: require("./assets/images/Publication_logo.webp"),
+      image: require("./assets/images/Publication_logo.png"),
       imageAlt: "Publication Icon",
       footerLink: [
         {
