@@ -238,7 +238,7 @@ const bigProjects = {
       ]
     },
       {
-  "image": require("./assets/images/placeholder.png"), // Replace with actual image path
+  "image": require("./assets/images/Bus.png"), // Replace with actual image path
   "projectName": "Coimbatore Local Bus App ",
   "projectDesc": [
     "Developed a cross-platform mobile application using React Native and Expo for accessing local bus information in Coimbatore.",
