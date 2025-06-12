@@ -287,7 +287,7 @@ const achievementSection = {
       subtitle:
         "Successfully completed the official certification course offered by Microsoft on Coursera. Covered Python programming basics including variables, data types, control flow, functions, and debugging techniques. Built a strong foundation for software development and data science applications.",
       image: require("./assets/images/Microsoft_logo.png"), // Add an appropriate logo image
-      imageAlt: "Certification Icon",
+      imageAlt: "Certification-Icon",
       footerLink: [
         {
           name: "View Certificate",
