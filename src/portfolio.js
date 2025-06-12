@@ -266,18 +266,32 @@ const bigProjects = {
 const achievementSection = {
   title: "Publications & Research Contributions 📚",
   subtitle:
-    "Selected research papers and articles showcasing my work in AI, smart systems, and emerging technologies.",
-  
+    "Selected research papers, certifications, and articles showcasing my work in AI, smart systems, and emerging technologies.",
+
   achievementsCards: [
     {
       title: "Smart Parking Solutions",
-      subtitle: "Co-authored a comprehensive review paper analyzing AI and deep learning models in smart parking and urban traffic systems. Explored and compared cutting-edge technologies like YOLO, CNNs, IoT, GANs, and reinforcement learning for real-time parking solutions. Discussed challenges such as scalability, privacy, and computational constraints, with proposed directions involving federated learning and edge AI.",
+      subtitle:
+        "Co-authored a comprehensive review paper analyzing AI and deep learning models in smart parking and urban traffic systems. Explored and compared cutting-edge technologies like YOLO, CNNs, IoT, GANs, and reinforcement learning for real-time parking solutions. Discussed challenges such as scalability, privacy, and computational constraints, with proposed directions involving federated learning and edge AI.",
       image: require("./assets/images/Publication_logo.png"),
       imageAlt: "Publication Icon",
       footerLink: [
         {
           name: "Journal Link",
           url: "https://example.com/journal-link"
+        }
+      ]
+    },
+    {
+      title: "Microsoft-Coursera: Python Programming Fundamentals",
+      subtitle:
+        "Successfully completed the official certification course offered by Microsoft on Coursera. Covered Python programming basics including variables, data types, control flow, functions, and debugging techniques. Built a strong foundation for software development and data science applications.",
+      image: require("./assets/images/Microsoft_logo.png"), // Add an appropriate logo image
+      imageAlt: "Certification Icon",
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://coursera.org/share/85815ac8037d12db1a4fc01862946a22"
         }
       ]
     }
