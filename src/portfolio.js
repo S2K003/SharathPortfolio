@@ -294,7 +294,17 @@ const achievementSection = {
           url: "https://coursera.org/share/85815ac8037d12db1a4fc01862946a22"
         }
       ]
-    }
+    },
+    {
+      title: "Microsoft-Coursera: Data Analysis and Visualization with Python",
+      subtitle: "Successfully completed the official certification course offered by Microsoft on Coursera. Covered essential data analysis techniques using Python, including data wrangling with Pandas, data visualization with Matplotlib and Seaborn, and basic statistical analysis. Strengthened practical skills in analyzing real-world datasets for insights.",
+      image: require("./assets/images/Microsoft_logo.png"),
+      imageAlt: "Certification-Icon",
+      footerLink: [{
+          name: "View Certificate",
+          url: "https://www.coursera.org/account/accomplishments/verify/YNC211WDL3O3" // Replace with actual certificate URL
+      }]
+    }  
   ],
   display: true
 };
