@@ -304,7 +304,17 @@ const achievementSection = {
           name: "View Certificate",
           url: "https://www.coursera.org/account/accomplishments/verify/YNC211WDL3O3" // Replace with actual certificate URL
       }]
-    }  
+    },
+    {
+      title: "Microsoft-Coursera: Web Development with Python",
+      subtitle: "Successfully completed the official certification course offered by Microsoft on Coursera. Gained hands-on experience in building web applications using Python, including Flask framework fundamentals, routing, templates, and handling user input. Developed practical skills in creating dynamic and interactive web applications.",
+      image: require("./assets/images/Microsoft_logo.png"),
+      imageAlt: "Certification-Icon",
+      footerLink: [{
+          name: "View Certificate",
+          url: "https://www.coursera.org/account/accomplishments/verify/GI58M7KKVHP2" // Replace with actual certificate URL
+      }]
+    }
   ],
   display: true
 };
