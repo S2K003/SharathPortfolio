@@ -194,7 +194,7 @@ const openSource = {
   display: false // Set false to hide this section, defaults to true
 };
 
-// Some big projects you have worked on
+//Projects
 const bigProjects = {
   title: "Big Projects",
   subtitle: "SOME INNOVATIVE SOLUTIONS AND INDUSTRIAL PROJECTS I'VE WORKED ON",
@@ -211,9 +211,9 @@ const bigProjects = {
       ],
       footerLink: [
         {
-          name: " Project Demo",
-          url: "https://youtu.be/jao8ttiN7zQ", // Replace with actual link
-          iconifyClass: "fab fa-youtube" // YouTube icon
+          name: "Project Demo",
+          url: "https://youtu.be/jao8ttiN7zQ",
+          iconifyClass: "fab fa-youtube"
         }
       ]
     },
@@ -231,29 +231,52 @@ const bigProjects = {
       ],
       footerLink: [
         {
-          name: " Project Demo ",
-          url: "https://youtu.be/-QKIJsfQEYc", // Replace with actual link
-          iconifyClass: "fab fa-youtube" // YouTube icon
+          name: "Project Demo",
+          url: "https://youtu.be/-QKIJsfQEYc",
+          iconifyClass: "fab fa-youtube"
         }
       ]
     },
-      {
-  "image": require("./assets/images/Bus.png"), // Replace with actual image path
-  "projectName": "Coimbatore Local Bus App ",
-  "projectDesc": [
-    "Developed a cross-platform mobile application using React Native and Expo for accessing local bus information in Coimbatore.",
-    "Implemented a local SQLite database to store and manage bus routes, schedules, and stop details.",
-    "Designed an intuitive user interface for efficient searching and viewing of bus information.",
-    "Focused on providing essential details for commuters to navigate Coimbatore's local bus network."
-  ],
-  "footerLink": [
     {
-      "name": "Project Demo",
-      "url": "https://youtu.be/q2FjttCUDc8", // Replace with actual link
-      "iconifyClass": "fab fa-youtube" // YouTube icon or relevant icon
+      image: require("./assets/images/Bus.png"),
+      projectName: "Coimbatore Local Bus App",
+      projectDesc: [
+        "Developed a cross-platform mobile application using React Native and Expo for accessing local bus information in Coimbatore.",
+        "Implemented a local SQLite database to store and manage bus routes, schedules, and stop details.",
+        "Designed an intuitive user interface for efficient searching and viewing of bus information.",
+        "Focused on providing essential details for commuters to navigate Coimbatore's local bus network."
+      ],
+      footerLink: [
+        {
+          name: "Project Demo",
+          url: "https://youtu.be/q2FjttCUDc8",
+          iconifyClass: "fab fa-youtube"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/Todo.png"),
+      projectName: "Login-Based MERN Stack TODO App",
+      projectDesc: [
+        "Built a full-stack TODO app using the MERN stack (MongoDB, Express, React, Node.js) with user authentication.",
+        "Implemented secure login and registration with JWT-based session handling.",
+        "Each user's todos are isolated and stored securely in MongoDB, accessed only when logged in.",
+        "Styled the frontend using Tailwind CSS and Material Tailwind components for a modern responsive UI.",
+        "Integrated cookie-based authentication with CORS policies to support both local and deployed environments."
+      ],
+      footerLink: [
+        {
+          name: "Project Demo",
+          url: "https://youtu.be/YFHzhmO-67Y", // 🔁 Replace with actual demo link
+          iconifyClass: "fab fa-youtube"
+        },
+        {
+          name: "GitHub Repository",
+          url: "https://github.com/S2K003/Todo-App", // 🔁 Replace with actual GitHub repo
+          iconifyClass: "fab fa-github"
+        }
+      ]
     }
-  ]
-}
   ],
   display: true
 };
