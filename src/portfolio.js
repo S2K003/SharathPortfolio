@@ -91,7 +91,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "University of New South Wales",
-      logo: require("./assets/images/UNSW.png"),
+      logo: require("./assets/images/placeholder.png"),
       subHeader: "Master of Information Technology",
       duration: "Expected September 2025 - September 2027",
       desc: "Pursuing advanced coursework and research in information technology, focusing on software development, AI, and data science.",
