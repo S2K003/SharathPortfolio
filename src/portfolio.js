@@ -253,7 +253,31 @@ const bigProjects = {
       "iconifyClass": "fab fa-youtube" // YouTube icon or relevant icon
     }
   ]
+},
+{
+  "image": require("./assets/images/TodoApp.png"), // Replace with actual image path
+  "projectName": "Login-Based MERN Stack TODO App",
+  "projectDesc": [
+    "Built a full-stack TODO app using the MERN stack (MongoDB, Express, React, Node.js) with user authentication.",
+    "Implemented secure login and registration with JWT-based session handling.",
+    "Each user's todos are isolated and stored securely in MongoDB, accessed only when logged in.",
+    "Styled the frontend using Tailwind CSS and Material Tailwind components for a modern responsive UI.",
+    "Integrated cookie-based authentication with CORS policies to support both local and deployed environments."
+  ],
+  "footerLink": [
+    {
+      "name": "Project Demo",
+      "url": "https://youtu.be/your-todo-demo-link", // Replace with actual YouTube link
+      "iconifyClass": "fab fa-youtube"
+    },
+    {
+      "name": "GitHub Repository",
+      "url": "https://github.com/your-username/mern-todo-app", // Replace with actual GitHub repo link
+      "iconifyClass": "fab fa-github"
+    }
+  ]
 }
+
   ],
   display: true
 };
