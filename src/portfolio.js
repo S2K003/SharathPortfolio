@@ -339,7 +339,7 @@ const achievementSection = {
       }]
     },
     {
-      title: "Advanced Python Development Techniques",
+      title: "Microsoft-Coursera: Advanced Python Development Techniques",
       subtitle: "Successfully completed the official certification course offered by Microsoft on Coursera. Focused on advanced-level Python programming concepts, including object-oriented programming, decorators, generators, context managers, multithreading, and asynchronous programming. Acquired the ability to write efficient, scalable, and maintainable code for complex applications.",
       image: require("./assets/images/Microsoft_logo.png"),
       imageAlt: "Certification-Icon",
