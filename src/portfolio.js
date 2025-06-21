@@ -340,12 +340,12 @@ const achievementSection = {
     },
     {
       title: "Advanced Python Development Techniques",
-      subtitle: "Successfully completed an advanced-level course focusing on high-level Python programming concepts. Gained in-depth knowledge of object-oriented programming, decorators, generators, context managers, multithreading, and asynchronous programming. Developed the ability to write efficient, scalable, and maintainable Python code for complex applications.",
-      image: require("./assets/images/Python_logo.png"),
+      subtitle: "Successfully completed the official certification course offered by Microsoft on Coursera. Focused on advanced-level Python programming concepts, including object-oriented programming, decorators, generators, context managers, multithreading, and asynchronous programming. Acquired the ability to write efficient, scalable, and maintainable code for complex applications.",
+      image: require("./assets/images/Microsoft_logo.png"),
       imageAlt: "Certification-Icon",
       footerLink: [{
         name: "View Certificate",
-        url: "https://www.coursera.org/account/accomplishments/verify/RRKYQA043FCI" // Replace with actual certificate URL
+        url: "https://www.coursera.org/account/accomplishments/verify/RRKYQA043FCI"
       }]
     }
   ],
