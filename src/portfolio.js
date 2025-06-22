@@ -347,6 +347,16 @@ const achievementSection = {
         name: "View Certificate",
         url: "https://www.coursera.org/account/accomplishments/verify/RRKYQA043FCI"
       }]
+    },
+    {
+      title: "Microsoft-Coursera: Project Development in Python",
+      subtitle: "Successfully completed the official certification course offered by Microsoft on Coursera. Gained hands-on experience in developing Python-based projects, covering modules such as version control with Git, modular programming, debugging, testing, and building command-line applications. Enhanced ability to structure and manage real-world Python projects from start to finish.",
+      image: require("./assets/images/Microsoft_logo.png"),
+      imageAlt: "Certification-Icon",
+      footerLink: [{
+        name: "View Certificate",
+        url: "https://www.coursera.org/account/accomplishments/verify/17HJXS44AESS" // Replace with actual certificate URL
+      }]
     }
   ],
   display: true
