@@ -26,7 +26,7 @@ const greeting = {
     "Passionate IT student skilled in full-stack development, AI, and smart solutions with strong leadership, problem-solving, and teamwork abilities."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1q1TksPSnxrf7Cro1zXu9PZf3MF-acLsy/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1e7dxUMetfUitrxy74TswAoiIJ2KBNmiA/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
