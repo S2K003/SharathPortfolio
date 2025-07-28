@@ -238,7 +238,7 @@ const bigProjects = {
       ]
     },
     {
-  image: require("./assets/images/StudyCode.webp"),
+  image: require("./assets/images/StudyCode.png"),
   projectName: "StudyCode - LeetCode Learning Interface",
   projectDesc: [
     "Built a read-only MERN stack web app to browse and revise LeetCode problems effectively.",
