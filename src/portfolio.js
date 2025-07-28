@@ -238,6 +238,25 @@ const bigProjects = {
       ]
     },
     {
+  image: require("./assets/images/studyCodeLogo.webp"),
+  projectName: "StudyCode - LeetCode Learning Interface",
+  projectDesc: [
+    "Built a read-only MERN stack web app to browse and revise LeetCode problems effectively.",
+    "Includes custom handwritten notes with detailed explanations for each problem.",
+    "Organized problems by tags like arrays, DP, graphs, and sorted by difficulty levels.",
+    "Implemented responsive UI for distraction-free reading and quick topic navigation.",
+    "Optimized static rendering for fast access and smooth experience across devices.",
+    "Ideal for interview prep, concept revision, and curated self-paced learning."
+  ],
+  footerLink: [
+    {
+      name: "GitHub Repo",
+      url: "https://github.com/S2K003/Interview-Question-SDE",
+      iconifyClass: "fab fa-github"
+    }
+  ]
+},
+    {
       image: require("./assets/images/Bus.png"),
       projectName: "Coimbatore Local Bus App",
       projectDesc: [
