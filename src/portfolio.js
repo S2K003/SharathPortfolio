@@ -200,6 +200,29 @@ const bigProjects = {
   subtitle: "SOME INNOVATIVE SOLUTIONS AND INDUSTRIAL PROJECTS I'VE WORKED ON",
   projects: [
     {
+      image: require("./assets/images/tasktracker-logo.png"), // Update with your actual image path
+      projectName: "TaskTracker AI – Agile Productivity Suite",
+      projectDesc: [
+        "Architected a full-stack Agile task management web application using Python (Flask), SQLite, and Bootstrap 5, featuring secure authentication and strict IDOR prevention.",
+        "Integrated Google's Gemini 2.5 Flash LLM to act as a dynamic Product Owner, enabling natural language task generation, automated epic breakdowns, and an on-demand 'Rubber Duck' coding tutor.",
+        "Engineered an interactive Kanban dashboard utilizing SortableJS for drag-and-drop prioritization, alongside FullCalendar.js for visual deadline management.",
+        "Implemented advanced browser capabilities, including the Web Speech API for hands-free voice commands and a Service Worker/Manifest to transform the platform into an installable Progressive Web App (PWA).",
+        "Configured asynchronous background workers using APScheduler and Python's smtplib to query the database daily and send automated Gmail due-date reminders."
+      ],
+      footerLink: [
+        {
+          name: "Video Demo",
+          url: "https://youtu.be/your-video-link", // Replace with your actual video link
+          iconifyClass: "fab fa-youtube"
+        },
+        {
+          name: "Source Code",
+          url: "https://github.com/yourusername/tasktracker", // Replace with your actual repo link
+          iconifyClass: "fab fa-github"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/eziologo.png"),
       projectName: "Full Stack Web App – Internship @ Ezio Solutions",
       projectDesc: [
